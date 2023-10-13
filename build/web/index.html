@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        .logo h3 {
+            color: #333;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .side-bar {
+            background-color: #fff;
+            width: 200px;
+            padding: 20px;
+        }
+
+        .side-bar h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .side-bar a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+
+        .sidebar-active {
+            font-weight: bold;
+             display: inline-block;
+            padding: 20px 40px;
+            margin: 10px;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .titulo h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .titulo hr {
+            margin-top: 0;
+            margin-bottom: 20px;
+            border: none;
+            border-top: 2px solid #333;
+        }
+
+        .titulo p {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+         .button {
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 10px;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h3>Chaguavanguane Tarefa System</h3>
+        </div>
+    </header>
+    <section class="main">
+        <div class="side-bar">
+            <h3>Home</h3>
+            <a  class="sidebar-active" href="#" >Adicionar</a>
+            <a class="sidebar-active" href="#">Listar</a>
+            <a class="sidebar-active" href="#">Estatisticas</a>
+            <a class="sidebar-active" href="loginPaiMae.html">Login</a>
+        </div>
+        <div class="content">
+            <div class="titulo">
+                <h2>Sistema de Gestao de Tarefas</h2>
+                <hr>
+                
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
